@@ -11,7 +11,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Sport {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Getter
+    @Setter
     int id;
 
     @Getter

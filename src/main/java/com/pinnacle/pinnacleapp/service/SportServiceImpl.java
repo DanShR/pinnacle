@@ -16,8 +16,9 @@ public class SportServiceImpl implements SportService {
     }
 
     @Override
-    public void createSport(String name) {
+    public void createSport(int id, String name) {
         Sport sport = new Sport();
+        sport.setId(id);
         sport.setName(name);
         sportRepo.save(sport);
     }

@@ -1,5 +1,5 @@
 package com.pinnacle.pinnacleapp.interfaces;
 
 public interface SportService {
-    public void createSport(String name);
+    public void createSport(int id, String name);
 }
