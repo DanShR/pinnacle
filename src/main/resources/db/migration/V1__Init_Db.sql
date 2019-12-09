@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS pinnacle.sport
 (
-    id integer NOT NULL ,
+    id integer ,
     name varchar(50) NOT NULL,
     PRIMARY KEY (id)
 );

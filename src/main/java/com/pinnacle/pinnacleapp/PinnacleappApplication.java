@@ -8,6 +8,5 @@ public class PinnacleappApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PinnacleappApplication.class, args);
-
     }
 }
